@@ -1,0 +1,49 @@
+# --- Build directories ---
+build/
+build-*/
+out/
+bin/
+obj/
+
+# --- CMake generated files ---
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+
+# --- Compiled binaries ---
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# --- VSCode ---
+.vscode/
+# Wenn du bestimmte Dateien behalten willst:
+# !.vscode/settings.json
+# !.vscode/extensions.json
+
+# --- Visual Studio ---
+*.sln
+*.vcxproj*
+*.user
+*.filters
+*.ipch
+*.db
+*.opendb
+*.tlog
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
